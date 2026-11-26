@@ -1,0 +1,3 @@
+# AI engine only. The test framework does not need these.
+# Install: pip install -r ai_engine/requirements.txt
+anthropic[bedrock]>=2.14,<3

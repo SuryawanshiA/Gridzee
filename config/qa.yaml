@@ -1,0 +1,8 @@
+name: qa
+base_url: https://qa.uffizio.com
+login_path: /jsp/trakzee_login.jsp
+# Credentials are read from .env using these variable names
+credentials:
+  superadmin:
+    username_env: QA_SUPERADMIN_USERNAME
+    password_env: QA_SUPERADMIN_PASSWORD

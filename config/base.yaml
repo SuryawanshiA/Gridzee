@@ -1,0 +1,14 @@
+# Defaults shared by all environments. Environment files override these.
+browser: chromium        # chromium | firefox | webkit. --browser on the command line overrides this
+headless: true           # --headed on the command line overrides this
+slow_mo_ms: 0            # slow motion in ms, for debugging
+viewport:
+  width: 1920
+  height: 1080
+timeouts:
+  default_ms: 30000      # element actions
+  navigation_ms: 60000   # page loads
+  expect_ms: 10000       # expect() assertions
+test_data:
+  email_domain: yopmail.com   # domain for generated email addresses (same as existing QA admins)
+# Screenshot, video and trace on failure are set in pytest.ini (addopts).

@@ -1,0 +1,8 @@
+name: demo
+base_url: https://demo.uffizio.com
+login_path: /jsp/trakzee_login.jsp
+# Shared demo site: prefer read-only checks and smoke tests here.
+credentials:
+  superadmin:
+    username_env: DEMO_SUPERADMIN_USERNAME
+    password_env: DEMO_SUPERADMIN_PASSWORD

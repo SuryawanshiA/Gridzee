@@ -1,0 +1,5 @@
+{
+  "superadmin": {
+    "description": "Super admin account. Real values are read from .env via config/<env>.yaml."
+  }
+}

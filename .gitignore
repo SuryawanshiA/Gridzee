@@ -1,0 +1,38 @@
+# Secrets
+.env
+.auth/*
+!.auth/.gitkeep
+
+# Reports and artifacts
+reports/*
+!reports/.gitkeep
+allure-results/
+allure-report/
+test-results/
+
+# AI working data
+ai_workspace/exploration/*
+!ai_workspace/exploration/.gitkeep
+ai_workspace/generated/*
+!ai_workspace/generated/.gitkeep
+ai_workspace/heal/*
+!ai_workspace/heal/.gitkeep
+ai_workspace/runs/*
+!ai_workspace/runs/.gitkeep
+# ai_workspace/plans/ is committed: plans are reviewed like code
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
